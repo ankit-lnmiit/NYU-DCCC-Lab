@@ -19,11 +19,11 @@ class MyTopo( Topo ):
         # Add hosts and switches
         h1 = self.addHost( 'h1' )
         h2 = self.addHost( 'h2' )
-        a_switch = self.addSwitch( 'OVS A' )
-        b_switch = self.addSwitch( 'OVS B' )
-        c_switch = self.addSwitch( 'OVS C' )
-        d_switch = self.addSwitch( 'OVS D' )
-        e_switch = self.addSwitch( 'OVS E' )
+        a_switch = self.addSwitch( 's1' )
+        b_switch = self.addSwitch( 's2' )
+        c_switch = self.addSwitch( 's3' )
+        d_switch = self.addSwitch( 's4' )
+        e_switch = self.addSwitch( 's5' )
         
 
         # Add links
